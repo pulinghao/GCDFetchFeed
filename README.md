@@ -2,7 +2,7 @@
 
 ## Done
 
-* RSS 解析成可用 model
+* RSS 解析成可用 model `SMFeedStore`
 * dispatch_group 监听多 feeds 的 fetch
 * Html convert to Core Text
 * feed 详情页
