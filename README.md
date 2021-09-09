@@ -3,7 +3,13 @@
 ## Done
 
 * RSS 解析成可用 model `SMFeedStore`
+
 * dispatch_group 监听多 feeds 的 fetch
+使用`dispatch_group`相关的接口，及并发队列实现
+```
+- (RACSignal *)fetchAllFeedWithModelArray:(NSMutableArray *)modelArray
+```
+
 * Html convert to Core Text
 * feed 详情页
 * FMDB 本地存储 feed
