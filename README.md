@@ -5,7 +5,8 @@
 * RSS 解析成可用 model `SMFeedStore`
 
 * dispatch_group 监听多 feeds 的 fetch
-使用`dispatch_group`相关的接口，及并发队列实现
+
+使用`dispatch_group`相关的接口，及并发队列实现。具体参看下面的接口
 ```
 - (RACSignal *)fetchAllFeedWithModelArray:(NSMutableArray *)modelArray
 ```
